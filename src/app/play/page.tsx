@@ -120,6 +120,8 @@ export default function PlayPage() {
         <div className="space-y-6">
           <SongPlayer
             trackId={currentSong.soundcloud_id}
+            unlockedSeconds={1}
+            currentTime={currentTime}
             onTimeUpdate={handleTimeUpdate}
           />
           
