@@ -128,6 +128,7 @@ export default function PlayPage() {
           <GuessInput
             onSubmit={handleGuess}
             disabled={isGameOver}
+            suggestions={[]}
           />
         </div>
       </div>
